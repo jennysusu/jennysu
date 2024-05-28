@@ -1,0 +1,41 @@
+@charset "utf-8";
+/*是連結的樣式設定*/
+A:link { FONT-STYLE: normal; TEXT-DECORATION: none; color: #FF0000;} 
+A:visited { FONT-STYLE: normal; TEXT-DECORATION: none; color: #999;} 
+A:active { FONT-STYLE: normal; TEXT-DECORATION: none; color: #FF0000;} 
+A:hover {FONT-STYLE: normal;  TEXT-DECORATION: none; color: #03E331;}
+
+/*
+這裡是全域設定，body是所有網頁的基礎設定值
+米字號只能三行，*就是全域設定的意思，權力最大
+img 是為了rwd圖能自動縮小而設定的
+*/
+body {
+	font-size: 16px;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	background-color: #f2f2f2;
+}
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.both{clear: both;}
+img{max-width: 100%;}
+
+/*以下是自設定，自己命的class往下寫*/
+.language{
+	width: 80%;
+	margin: auto;
+	font-size: 13px;
+	color: #999;
+	text-align: right;
+}
+.header{
+	background-color: #fff;
+}
+
+.logo {
+}
+.nav {
+}
